@@ -1,5 +1,8 @@
 <style>
 .teacher-note {
+    background-color: red !important;
+}
+.teacher-note {
     border: 3px dashed #fd7f91;
     font-size: 14px;
     color: #000000;
