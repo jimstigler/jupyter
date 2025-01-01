@@ -1,6 +1,8 @@
 <style>
-.teacher-note {
-    background-color: red !important;
+/* Force CSS block parsing */
+.teacher-note::before {
+    content: "";
+    display: none;
 }
 .teacher-note {
     border: 3px dashed #fd7f91;
