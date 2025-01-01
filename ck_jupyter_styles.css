@@ -75,4 +75,9 @@
     padding: 0; /* Remove default padding */
     color: #000000;
 }
+
+/* Adjust line spacing for Level 3 headings (### Heading 3) */
+h3 {
+    line-height: 1.5;  /* Adjust this value to control spacing */
+}
 </style>
