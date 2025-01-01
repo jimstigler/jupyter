@@ -76,4 +76,9 @@
     color: #000000;
 }
 
+/* Adjust line spacing for Level 3 headings (### Heading 3) */
+div.text_cell_render h3 {
+    line-height: 1.5 !important;
+}
+
 </style>
