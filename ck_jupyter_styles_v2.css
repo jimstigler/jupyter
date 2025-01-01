@@ -1,0 +1,83 @@
+<style>
+/* Force CSS block parsing */
+.teacher-note::before {
+    content: "";
+    display: none;
+}
+.teacher-note {
+    border: 3px dashed #fd7f91;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffe8ec;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+.teacher-note ol, .teacher-note ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.teacher-note li {
+    margin-top: 5px;
+    color: #000000;
+}
+
+.teacher-note code {
+    color: #000000;
+    background-color: #ffd3da;
+}
+
+.teacher-note a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.discussion-question {
+    border: 3px solid #a88bd4;
+    font-size: 14px;
+    color: #000000;
+    background-color: #eee8f6;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.discussion-question code {
+    color: #000000;
+    background-color: #e0d5ef;
+}
+
+.guided-notes h3:first-child {
+    margin-top: 0 !important; /* Forcefully remove the global margin */
+    margin-bottom: 0px; /* Optional: Add a small bottom margin for spacing */
+    padding: 0; /* Ensure no padding is applied */
+    color: #000000; /* Standard black font */
+}
+
+.guided-notes {
+    border: 3px solid #708a89;
+    font-size: 14px;
+    color: #000000;
+    background-color: #f1f8f8; /* was ffffff */
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.5;
+}
+
+.guided-notes code {
+    color: #000000;
+    background-color: #dceeed;
+}
+
+.guided-notes h3 {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    color: #000000;
+}
+
+/* Adjust line spacing for Level 3 headings (### Heading 3) */
+div.text_cell_render h3 {
+    line-height: 2.0 !important;
+}
+</style>
