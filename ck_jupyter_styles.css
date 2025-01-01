@@ -6,7 +6,7 @@
     background-color: #ffe8ec;
     padding: 10px;
     border-radius: 5px;
-    line-height: 1.5;
+    line-height: 1.5 !important;
 }
 .teacher-note ol, .teacher-note ul {
     margin-top: 10px;
