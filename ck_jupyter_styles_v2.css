@@ -77,8 +77,11 @@
 }
 
 /* Adjust line spacing for Level 3 headings (### Heading 3) */
-div.text_cell_render h3, div.rendered_html h3 {
-    line-height: 2.0 !important;
+.rendered_html h3 {
+    font-size: 128.6%;
+    margin: 1.55em 0 0 0;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 </style>
