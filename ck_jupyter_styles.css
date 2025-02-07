@@ -43,10 +43,11 @@
     line-height: 1.5;
 }
 
-.discussion-question h3 {
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    color: #000000;
+.discussion-question h3:first-child {
+    margin-top: 0 !important; /* Forcefully remove the global margin */
+    margin-bottom: 0px; /* Optional: Add a small bottom margin for spacing */
+    padding: 0; /* Ensure no padding is applied */
+    color: #000000; /* Standard black font */
 }
 
 .discussion-question code {
