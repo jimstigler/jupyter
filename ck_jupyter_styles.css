@@ -43,6 +43,12 @@
     line-height: 1.5;
 }
 
+.discussion-question h3 {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    color: #000000;
+}
+
 .discussion-question code {
     color: #000000;
     background-color: #e0d5ef;
