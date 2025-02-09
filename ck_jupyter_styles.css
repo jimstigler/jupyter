@@ -48,6 +48,13 @@
     background-color: #e0d5ef;
 }
 
+.discussion-question h3:first-child {
+    margin-top: 0 !important; /* Remove the extra margin */
+    margin-bottom: 0px; /* Optional: Ensure no bottom margin */
+    padding: 0; /* Ensure no extra padding */
+    color: #000000; /* Standard black font */
+}
+
 .guided-notes h3:first-child {
     margin-top: 0 !important; /* Forcefully remove the global margin */
     margin-bottom: 0px; /* Optional: Add a small bottom margin for spacing */
