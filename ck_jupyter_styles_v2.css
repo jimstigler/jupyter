@@ -4,6 +4,8 @@
     content: "";
     display: none;
 }
+
+/* Teacher Notes */
 .teacher-note {
     border: 3px dashed #fd7f91;
     font-size: 14px;
@@ -13,26 +15,17 @@
     border-radius: 5px;
     line-height: 1.5;
 }
-.teacher-note ol, .teacher-note ul {
-    margin-top: 10px;
-    padding-left: 20px;
-}
-
-.teacher-note li {
+.teacher-note ol, .teacher-note ul, .teacher-note li {
     margin-top: 5px;
+    padding-left: 20px;
     color: #000000;
 }
-
 .teacher-note code {
     color: #000000;
     background-color: #ffd3da;
 }
 
-.teacher-note a {
-    color: #000000;
-    text-decoration: underline;
-}
-
+/* Discussion Question */
 .discussion-question {
     border: 3px solid #a88bd4;
     font-size: 14px;
@@ -42,46 +35,42 @@
     border-radius: 5px;
     line-height: 1.5;
 }
-
+.discussion-question h3:first-child {
+    margin-top: 0 !important;
+}
 .discussion-question code {
     color: #000000;
     background-color: #e0d5ef;
 }
 
-.guided-notes h3:first-child {
-    margin-top: 0 !important; /* Forcefully remove the global margin */
-    margin-bottom: 0px; /* Optional: Add a small bottom margin for spacing */
-    padding: 0; /* Ensure no padding is applied */
-    color: #000000; /* Standard black font */
-}
-
+/* Guided Notes */
 .guided-notes {
     border: 3px solid #708a89;
     font-size: 14px;
     color: #000000;
-    background-color: #f1f8f8; /* was ffffff */
+    background-color: #f1f8f8;
     padding: 10px;
     border-radius: 5px;
     line-height: 1.5;
 }
-
+.guided-notes h3 {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+.guided-notes h3:first-child, .discussion-question h3:first-child {
+    margin-top: 0 !important;
+}
 .guided-notes code {
     color: #000000;
     background-color: #dceeed;
 }
 
-.guided-notes h3 {
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
-    color: #000000;
-}
-
-/* Adjust line spacing for Level 3 headings (### Heading 3) */
+/* Adjust line spacing for Level 3 headings */
 .rendered_html h3 {
     font-size: 128.6%;
     margin: 1.55em 0 0 0;
     font-weight: bold;
     line-height: 1.5;
 }
-
 </style>
