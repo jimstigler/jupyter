@@ -35,9 +35,12 @@
     border-radius: 5px;
     line-height: 1.5;
 }
+.discussion-question h3 {
+    margin: 0; /* Remove top and bottom margin */
+    padding: 0; /* Ensure no padding is applied */
+}
 .discussion-question h3:first-child {
     margin-top: 0 !important;
-    margin-bottom: 0; /* Removes only the bottom margin */
 }
 .discussion-question code {
     color: #000000;
