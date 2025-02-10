@@ -37,6 +37,7 @@
 }
 .discussion-question h3:first-child {
     margin-top: 0 !important;
+    margin-bottom: 0; /* Removes only the bottom margin */
 }
 .discussion-question code {
     color: #000000;
