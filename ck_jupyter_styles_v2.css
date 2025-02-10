@@ -61,6 +61,11 @@
 .guided-notes h3:first-child, .discussion-question h3:first-child {
     margin-top: 0 !important;
 }
+.teacher-note ol, .teacher-note ul, .teacher-note li {
+    margin-top: 5px;
+    padding-left: 20px;
+    color: #000000;
+}
 .guided-notes code {
     color: #000000;
     background-color: #dceeed;
