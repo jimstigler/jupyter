@@ -1,4 +1,5 @@
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /* Force CSS block parsing */
 .teacher-note::before {
     content: "";
