@@ -82,4 +82,14 @@
     font-weight: bold;
     line-height: 1.5;
 }
+.guided-notes h3,
+.discussion-question h3,
+.teacher-note h3 {
+    font-size: 1.15em !important; /* ~16px relative to 14px container */
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000000;
+}
 </style>
